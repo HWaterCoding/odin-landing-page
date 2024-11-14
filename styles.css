@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+/* assign flex to entire page to push footer to bottom and header to top? */
+body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 .header{
     background-color: #1f2937;
     color: #fff;
@@ -36,8 +43,8 @@ a{
 }
 
 #header-image{
-    height: 170px;
-    width: 315px;
+    height: 300px;
+    border: 2px solid red;
 }
 
 .header-info{
@@ -67,3 +74,12 @@ a{
     margin-top: 10px;
 }
 
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: #fff;
+}
