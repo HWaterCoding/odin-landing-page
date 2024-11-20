@@ -79,13 +79,13 @@ a{
     margin-top: 10px;
 }
 
-.randominfo{
+.photogallery{
     background-color: rgb(170, 204, 255);
     padding-bottom: 20px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
-.randominfo h2{
+.photogallery h2{
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -93,7 +93,8 @@ a{
 
 .pictures{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 70px;
 }
 
 .pictures img{
@@ -108,6 +109,37 @@ a{
     padding: 10px;
 }
 
+.reviews{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    background-color: #cccccc;
+    padding: 20px;
+    font-size: 36px;
+    padding: 100px;
+}
+
+/* .quote{
+    text-align: right;
+} */
+/* ^the above works somehow, but not actually sure why it only moves the bolded text? */
+
+.one{
+    background-color: #3882f6;
+}
+
+.two{
+    background-color: red;
+}
+
+.quote p{
+    color: rgb(33, 201, 56);
+}
+
+.quote b{
+    text-align: right;
+    padding-bottom: 200px;
+}
 
 .footer{
     display: flex;
