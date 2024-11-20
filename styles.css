@@ -8,7 +8,7 @@
 body{
     display: flex;
     flex-direction: column;
-    flex: 1;
+    /* flex: 1; */
 }
 
 .header{
@@ -19,7 +19,7 @@ body{
  
 .navbar-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 50px;
     padding-top: 10px;
 }
@@ -42,9 +42,14 @@ a{
     font-weight: 900;
 }
 
-#header-image{
+/* #header-image, #header-image2{
     height: 300px;
-    border: 2px solid red;
+} */
+
+.header-images{
+    height: 300px;
+    display: flex;
+    gap: 30px;
 }
 
 .header-info{
@@ -74,6 +79,34 @@ a{
     margin-top: 10px;
 }
 
+.randominfo{
+    background-color: rgb(170, 204, 255);
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.randominfo h2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.pictures{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pictures img{
+    height: 200px;
+    width: 150px;
+    border: 3px rgb(142, 142, 255) solid;
+    border-radius: 10px;
+}
+
+.photo{
+    text-align: center;
+    padding: 10px;
+}
 
 
 .footer{
