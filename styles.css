@@ -1,18 +1,21 @@
+:root{
+    --babyblue: #aaccff;
+    --navyblue: #1f2937;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* assign flex to entire page to push footer to bottom and header to top? */
 body{
     display: flex;
     flex-direction: column;
-    /* flex: 1; */
 }
 
 .header{
-    background-color: #1f2937;
+    background: var(--navyblue);
     color: #fff;
     padding: 15px;
 }
@@ -41,10 +44,6 @@ a{
     font-size: 20px;
     font-weight: 900;
 }
-
-/* #header-image, #header-image2{
-    height: 300px;
-} */
 
 .header-images{
     height: 300px;
@@ -80,15 +79,15 @@ a{
 }
 
 .photogallery{
-    background-color: rgb(170, 204, 255);
-    padding-bottom: 20px;
-    /* margin-bottom: 10px; */
+    background: var(--babyblue);
+    padding-bottom: 40px;
 }
 
 .photogallery h2{
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .pictures{
@@ -112,39 +111,72 @@ a{
 .reviews{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     background-color: #cccccc;
     padding: 20px;
     font-size: 36px;
-    padding: 100px;
+    padding: 70px;
+    gap: 30px;
 }
 
-/* .quote{
-    text-align: right;
-} */
-/* ^the above works somehow, but not actually sure why it only moves the bolded text? */
-
-.one{
-    background-color: #3882f6;
-}
-
-.two{
-    background-color: red;
+.quote{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #d4d4d4;
+    box-shadow: 3px 3px 3px #4d4d4d;
+    color: #4d4d4d;
 }
 
 .quote p{
-    color: rgb(33, 201, 56);
+    font-style: italic;
 }
 
 .quote b{
     text-align: right;
-    padding-bottom: 200px;
+    color: #000000;
 }
+
+.signuparea{
+    display: flex;
+    justify-content: center;
+    background: var(--babyblue);
+    padding: 50px;
+}
+
+.signupbox{
+    background: var(--navyblue);
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.leftsignupbox{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.button{
+    width: 70px;
+    border: white 2px solid;
+    border-radius: 50px;
+    margin: 10px 40px 10px 10px;
+    padding: 8px;
+    background-color: #3882f6;
+    color: #fff;
+}
+
 
 .footer{
     display: flex;
     justify-content: center;
     padding: 20px;
-    background-color: #1f2937;
+    background: var(--navyblue);
     color: #fff;
 }

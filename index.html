@@ -12,7 +12,7 @@
             <div class="header-logo">Header Logo</div>
             <ul>
                 <li><a href="#photogallery">Photo Gallery</a></li>
-                <li><a href="#reviews"></a>Glowing Reviews</li>
+                <li><a href="#reviews">Glowing Reviews</a></li>
                 <li><a href="#signuparea">Sign Up!</a></li>
             </ul>
         </div>
@@ -21,7 +21,8 @@
             <div class="header-left">
                 <h1>The TRUE 'OdinProject'.</h1>
                 <p id="lamppost-text">This website is going to be a tribute to the best boy who ever lived. He is a husky named Odin, and you WILL love him.</p>
-                <button class="signup-button">Sign up</button>
+                <!--This button is garbage and doesn't work properly. Try applying Flex:1 to it, or fixing it's layout.-->
+                <a href="https://www.google.com"><button class="signup-button">Sign up</button></a>
             </div>
             <div class="header-images">
                 <img id="header-image" src="odinpics/Screenshot_20241115_110931_Gallery.jpg">
@@ -58,37 +59,44 @@
      </div>
 
     <div class="reviews">
-
-        <div class="quote one">
-            <p>Filler quote about Odin and what a good boy he is.</p>
-            <b>--Thor, God of Thunder</b>
+        <div class="quote">
+            <p>"Incredibly soft and cuddly. Boop-able nose."</p>
+            <b>-- My girlfriend</b>
+            
         </div>
 
-        <div class="quote two">
-            <p>filler quote about odin the goodboi</p>
-            <b>--Zeus, God of Lightning</b>
+        <div class="quote">
+            <p>"Very well behaved; a distinguished GoodBoy."</p>
+            <b>-- The lady who clips his nails</b>
         </div>
 
-        <div class="quote three">
-            <p>Filler quote about GoodBoiOdin</p>
-            <b>--Aphrodite, Goddess of Love</b>
+        <div class="quote">
+            <p>"The most handsome boy I've ever seen."</p>
+            <b>-- Every female dog ever</b>
         </div>
-
     </div>
-
 
 
 
     <div class="signuparea">
-        <div class="signup-container">
-            <p>Call to action! It's time!</p>
-            <p>Sign up for our product by clicking that button right over there!</p>
-            <button>Sign up</button>
+        <div class="signupbox">
+            <div class="leftsignupbox">
+                <h3>Stay updated with the latest news on Odin!</h3>
+                <p>Sign up for our weekly Odin newsletter!</p>
+            </div>
+            <!--This button is garbage and works horribly, fix it.-->
+            <div class="signarea-button">
+                <a href="https://www.google.com">
+                    <button class="button" type="button">Sign up</button>
+                </a>
+            </div>
         </div>
     </div>
+
 
     <div class="footer">
         <p>Copyright &copy; The Odin Project 2021.</p>
     </div>
+
 </body>
 </html>
