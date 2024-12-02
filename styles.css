@@ -36,8 +36,8 @@ ul{
 }
 
 a{
-    color: #fff;
     text-decoration: none;
+    background-color: pink;
 }
 
 .header-logo{
@@ -61,10 +61,10 @@ a{
 .header-left{
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 386px;
 }
 
-.signup-button{
+/* .signup-button{
     width: 70px;
     border: none;
     border-radius: 50px;
@@ -72,10 +72,11 @@ a{
     padding: 5px;
     background-color: #3882f6;
     color: #fff;
-}
+} */
 
 #lamppost-text{
     margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .photogallery{
@@ -170,6 +171,7 @@ a{
     padding: 8px;
     background-color: #3882f6;
     color: #fff;
+    cursor: pointer;
 }
 
 
