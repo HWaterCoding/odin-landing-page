@@ -36,6 +36,15 @@ ul{
 }
 
 a{
+    color: white;
+}
+
+.navbar-container a:hover{
+    color: rgb(240, 32, 32);
+    font-weight: bold;
+}
+
+a{
     text-decoration: none;
 }
 
